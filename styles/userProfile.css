@@ -1,0 +1,234 @@
+body{                                                  /*header*/
+    background-color:rgb(218, 228, 214);
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(246, 246, 246);
+    padding: 40px 40px 40px 70px;
+    border: 3px solid black;
+    border-left: 0;
+    border-right: 0;
+}
+
+nav ul .logo{
+  flex:1; 
+  padding-right:480px;
+}
+nav ul .logo img{
+  width:110px; 
+  height:110px;
+}
+
+nav ul div.items{
+    padding: 0 25px;
+    display: inline-flex;
+}
+
+nav ul div.items a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 10px;
+    color: rgb(0, 0, 0)
+}
+
+nav ul div.items a:hover{
+    color: rgb(21, 42, 90);
+}
+
+nav ul div.items i{
+    color: rgb(68, 148, 255);
+}
+
+nav ul .search{
+    height: 40px;
+    width: 240px;
+    display: flex;
+    border-radius: 5px ;
+}
+
+nav ul .search input{
+    height: 100%;
+    width: 200px;
+    border: 1px solid black;
+    outline:none;
+    padding: 0 10px;
+    color: rgb(0, 0, 0);
+    font-size:16px ;
+    border-radius: 5px 0 0 5px;
+}
+
+nav ul .search input .icon{
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: brown;
+    border-radius: 0 5px 5px 0;
+}
+
+nav ul .search .icon{
+    height: 100%;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    background:slategray;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+nav ul .search .icon:hover{
+    background: rgb(130, 110, 110);
+}
+
+nav ul .search .icon span{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding-top: 7px;
+}
+
+@media screen and (max-width : 1052px){
+    nav{
+        padding: 10px 40px 10px 0;
+    }
+
+    nav ul li.logo{
+        display: none;
+    }
+
+    nav ul div.items{
+        flex: 4;
+    }
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border: 50%;
+    object-fit: cover;
+    border-color: black;
+  }
+  
+  .profile-details {
+    margin-left: 20px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+
+.fcoloumn ul li a {                     /* footer */
+    text-decoration: none;
+    color: beige;
+  }
+  
+  .fcoloumn ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+  .display {
+    display: flex;
+    flex-wrap: wrap; 
+    max-width: 1170px;
+    margin:auto;
+  }
+  
+  .fcoloumn ul li a{
+    font-weight: 300;
+    line-height: 25px;
+    padding-left: 10px;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  .fcoloumn ul li a:hover{
+    color: #c18b9e;
+    padding-left: 8px;
+  }
+  
+  .spa {
+    padding-left: 120px;
+    word-spacing: 2px;
+  }
+  
+  .foot {
+    background-color: #24262b;
+    padding: 70px 0;
+    padding: 20px 5px 5px 5px;
+    bottom: 0;
+    margin-top: 70px;
+    position: relative;
+  }
+  
+  .fcoloumn h4{
+    color: beige;
+  }
+  
+  .fcolor{
+    color: beige;
+    font-size: 14px;
+    margin: 30px 200px 20px 200px;
+    
+  }
+  
+  .fcolor a{
+    text-decoration: none;
+    color: beige;
+  }
+  .fcoloumn .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+  }
+  .fcoloumn .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+  }
+  .social-links {
+    display: flex;
+  }
+  
+  .image1{
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    box-shadow: none;
+  }
