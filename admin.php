@@ -3,7 +3,7 @@ session_start();
 ?>
 <html>
 <head>
-    <title>AppStore/Admin Page</title>
+    <title>AppStore-Admin Page</title>
     <link rel="stylesheet" href="styles/adminstyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
